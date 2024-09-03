@@ -2,11 +2,11 @@ import React from "react";
 
 function MemberFilter() {
   return (
-    <div className="w-72 h-96 bg-white">
-      <h1>Filter Members by</h1>
-      <div>
-        <h2>District:</h2>
-        <select className="w-60 h-10">
+    <div className="w-72 p-16 bg-white flex justify-center flex-col rounded-lg">
+      <h1 className="font-medium text-lg text-center">Filter Members by</h1>
+      <div className="mt-2">
+        <h2 className="font-medium text-md mt-2">District:</h2>
+        <select className=" h-10">
           <option value="" disabled selected>
             Select District
           </option>
@@ -17,8 +17,8 @@ function MemberFilter() {
           <option>Anuradhapura</option>
         </select>
 
-        <h2>Volunteer Type:</h2>
-        <select className="w-60 h-10">
+        <h2 className="font-medium text-md mt-2">Volunteer Type:</h2>
+        <select className="h-10">
           <option value="" disabled selected>
             Select Volunteer Type
           </option>
@@ -29,8 +29,8 @@ function MemberFilter() {
           <option>Other</option>
         </select>
 
-        <h2>Volunteer Level:</h2>
-        <select className="w-60 h-10">
+        <h2 className="font-medium text-md mt-2">Volunteer Level:</h2>
+        <select className="h-10">
           <option value="" disabled selected>
             Select Volunteer Level
           </option>
